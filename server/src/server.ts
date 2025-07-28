@@ -15,7 +15,9 @@ app.use(
       "http://localhost:3000",
       "http://localhost:5173",
       "http://127.0.0.1:5173",
-      "https://lms-portal-fac5.vercel.app"  // ✅ No trailing slash here
+      "https://lms-portal-fac5.vercel.app",
+      "https://lms-portal-fac5-kaoazv265.vercel.app",
+      "https://lms-portal-fac5-git-main-mounika2006chowdary-gmailcoms-projects.vercel.app"
     ],
     credentials: true,
   })
