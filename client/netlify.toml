@@ -1,0 +1,15 @@
+[build]
+  base = "client"
+  command = "npm install && npm run build"
+  publish = "client/dist"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 5173
+  port = 8888
+  publish = "client/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
