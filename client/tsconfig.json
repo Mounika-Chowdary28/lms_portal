@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",         // ✅ Required for JSX/TSX
-    "target": "es6",            // or "esnext"
+    "jsx": "react-jsx",
+    "target": "es6",
     "module": "esnext",
     "moduleResolution": "node",
     "lib": ["dom", "esnext"],
@@ -11,7 +11,11 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": "./src",
+    "paths": {
+      "api/*": ["api/*"]
+    }
   },
   "include": ["src"]
 }
